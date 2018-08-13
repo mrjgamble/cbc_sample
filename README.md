@@ -84,16 +84,16 @@ The raw data provided event information related to device manufacturer, family, 
 3. Tablet
 4. Unknown  
 
-Using this classification, we looked at the breakdown of device class for the top 6 countries (ranking based on active users).
+Using this classification, we looked at the breakdown of device class for the top 5 countries (ranking based on active users).
 
 Canadian users appear to consume content primarily on their phones.  Users from other countries are more likely to utilize a desktop/laptop or tablet.  We also found that there is trouble capturing `device_type` from users in France, as the majority of events do not contain valid device information.
 
 ![consumption by device](https://github.com/mrjgamble/cbc_sample/blob/master/figures/device_consumption_per_country.png)
 
 ## Content Consumption By Content Area
-Finally we look at the consumption by content area, again focusing on the top 6 countries (ranking based on active users).
+Finally we look at the consumption by content area, again focusing on the top 5 countries (ranking based on active users).
 
-News by far is the most popular amongst the top 6 countries.  Radio also appears to be within the top 3 content areas for each country.  
+News by far is the most popular amongst the top 5 countries.  Radio also appears to be within the top 3 content areas for each country.  
 
 Examining Canada, it appears that users are more likely to access the homepage - which might indicate that users in other countries access content through direct links or bookmarks.  This might indicate that content placed on the homepage is more likely to be missed by users outside of Canada.
 
