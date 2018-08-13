@@ -2,9 +2,9 @@
 
 The purpose of this project is to gain insights into how Canadians consume digital media.
 
-The events analyzed in this write up occurred within the 23rd hour of 2018-04-01.  Prior to analyzing the data, the raw data was processed and cleaned.  Details around this process can be found in the [Data Import & Cleaning notebook]([insert link])
+The events analyzed in this write up occurred within the 23rd hour of 2018-04-01.  Prior to analyzing the data, the raw data was processed and cleaned.  Details around this process can be found in the [Data Import & Cleaning notebook](https://github.com/mrjgamble/cbc_sample/blob/master/notebooks/01_data_import_and_cleaning.ipynb).
 
-The steps to creating the data visualizations found within this write up are detailed in the [Data Insights](f) notebook.  
+The steps to creating the data visualizations found within this write up are detailed in the [Data Insights notebook](https://github.com/mrjgamble/cbc_sample/blob/master/notebooks/02_data_insights.ipynb).  
 
 This is an initial look at the data and is by no means intended to be an exhaustive analysis of the dataset.
 
@@ -38,7 +38,7 @@ The list of events are as follows:
 
 The average number of events captured per minute is 1,675, peaking at 1,825 events during the 40th minute.  The distribution of events per minute is shown below:
 
-![events per minute]()
+![events per minute](https://github.com/mrjgamble/cbc_sample/blob/master/figures/event_distribution.png)
 
 ## 2. Content Consumption By Location
 *Note: The following analysis was performed with the assumption that the data column named 'amplitude_id' represents a unique user identifier.*  
@@ -47,18 +47,15 @@ Even though we are analyzing a small window of time, we find that content is bei
 
 Canada was not surprisingly at the top of this list with 40,448 active users.  Looking beyond Canada, it was found that the US, France and Australia also had significant active users.
 
-[inser graph of users per country]
-![active users per country]()
+![active users per country](https://github.com/mrjgamble/cbc_sample/blob/master/figures/active_users_per_country.png)
 
 Focusing on Canada, we can see that the majority of users come from Ontario, British Columbia, and Alberta.  
 
-[insert graph users per provicne]
-![active users per province]()
+![active users per province](https://github.com/mrjgamble/cbc_sample/blob/master/figures/active_users_per_province.png)
 
 Based on city population alone, one would assume that Montreal, Vancouver and Toronto would top the charts when it comes to active users in Canadian cities.  The graph below shows otherwise.  Montreal is not even in the top 10 cities.  Surprisingly, Calgary edges out Vancouver for the second spot.  
 
-[insert graph of Canadian city by active user]
-![active users per Canadian city]()
+![active users per Canadian city](https://github.com/mrjgamble/cbc_sample/blob/master/figures/active_users_per_canadian_city.png)
 
 The above results come with a disclaimer, as we are looking at a single hour that falls in the late night for some Canadians.    
 
@@ -93,7 +90,7 @@ The results below are surprising. Canadian users appear to consume content prima
 
 Also, we find that an error must have occurred in capturing device type from users in France, as the majority of events do not contain valid device information.
 
-![consumption by device]()
+![consumption by device](https://github.com/mrjgamble/cbc_sample/blob/master/figures/device_consumption_per_country.png)
 
 ## 4. Content Consumption By Content Area
 Finally we look at the consumption by content area, again focusing on the top 6 countries (ranking based on active users).
@@ -102,7 +99,7 @@ News by far is the most popular amongst the top 6 countries.  Radio also appears
 
 Examining Canada, it appears that users are more likely to access the homepage - which might indicate that users in other countries access content through direct links or bookmarks.  This is interesting as it indicates that content on the homepage is more likely to be missed by users outside of Canada.
 
-![active users by content area]()
+![active users by content area](https://github.com/mrjgamble/cbc_sample/blob/master/figures/content_area_per_country.png)
 
 
 ## 5. Conclusion
